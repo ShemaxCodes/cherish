@@ -124,7 +124,11 @@
 
 .btn-row-2 .btn-1, .btn-row-2 .btn-2 {
     margin: 40px;
-    width: 200px;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .btn-row-3 {
@@ -134,5 +138,51 @@
 
 .btn-row-3 .btn-3, .btn-row-3 .btn-4 {
     margin: 40px;
-    width: 200px;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*////////////////////////////////////////
+CONFIDENTIAL HELP SECTION 
+////////////////////////////////////////*/
+
+.help-section {
+    border: solid;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.help-col-1 {
+    display: inline-block;
+    padding-left: 50px;
+    /* margin: auto; */
+    /* width: 50%; */
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.help-col-2 {
+    /* width: 400px; */
+    /* border: solid; */
+    /* padding-left: 10px;
+    margin-left: 70px;
+    margin-right: 70px; */
+    display: inline-block;
+    padding: 30px;
+    height: 290px;
+    width: 400px;
+}
+
+.help-image {
+    height: 290px;
+    width: 600px;
 }
