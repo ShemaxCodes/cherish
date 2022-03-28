@@ -8,7 +8,6 @@
     margin: 0 auto;
     background-color: transparent;
     overflow: hidden;
-    /* border-style:solid; */
     border-width: 1px;
     border-color: gray;
     border-top: none;
@@ -64,3 +63,16 @@
     z-index: 9999;
     display: block;
 } */
+
+.about-section {
+    border: solid;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.about-col-1 {
+    width: 300px;
+    border: solid;
+    padding-left: 50px;
+}
