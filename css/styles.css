@@ -11,8 +11,8 @@
 }
 
 .logo img{
-    height: 120px;
-    width: 120px;
+    height: 170px;
+    width: 170px;
     float: left;
     list-style: none;
     position: relative;
@@ -58,19 +58,9 @@
 
 }
 
-/* .main-nav {
-    width: 100%;
-    margin: 0 auto;
-    background-color: transparent;
-    overflow: hidden;
-    border-width: 1px;
-    border-color: gray;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    z-index: 9999;
-    display: block;
-} */
+/*////////////////////////////////////////
+MAIN HERO / ABOUT SECTION
+////////////////////////////////////////*/
 
 .about-section {
     padding: 20px;
@@ -115,6 +105,11 @@ h2 {
     width: 400px;
 }
 
+/*////////////////////////////////////////
+CHERISH YOUR COMMUNITY SECTION
+////////////////////////////////////////*/
+
+
 .community-section {
     border: solid;
     text-align: center;
@@ -139,9 +134,15 @@ h2 {
 }
 
 
+/*////////////////////////////////////////
+IDENTIFYING ABUSE SECTION
+////////////////////////////////////////*/
+
+
 .identify-abuse {
     border: solid;
     padding: 50px;
+    background-color: #D0CDE1;
 }
 
 .identify-abuse .title-row-1 {
@@ -217,4 +218,51 @@ CONFIDENTIAL HELP SECTION
 .help-image {
     height: 290px;
     width: 600px;
+}
+
+/*////////////////////////////////////////
+RESOURCES AND SUPPORT SECTION
+////////////////////////////////////////*/
+
+.support-section {
+    border: solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #D0CDE1;
+}
+
+.support-imgs {
+    height: 140px;
+    width: 140px;
+    padding-top: 10px;
+}
+
+.box-row-1 {
+    flex-direction: row;
+    text-align: center;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    /* height: 40vh; */
+    width: 40vh;
+    margin: 40px;
+    line-height: 1.1;
+}
+
+.box-row-1 > h5 {
+    font-size: 20px;
+}
+
+.footer-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer-content {
+    margin: auto;
+    width: 50%;
 }
