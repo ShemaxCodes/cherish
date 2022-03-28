@@ -16,6 +16,8 @@
     border-right: none;
     z-index: 9999;
     display: block;
+    height: 90px;
+  
 }
 
 .navbar-main {
@@ -31,3 +33,34 @@
     display: inline-block;
    
 }
+
+.logo {
+    list-style: none;
+}
+
+.logo img{
+    height: 120px;
+    width: 120px;
+    float: left;
+    list-style: none;
+    position: relative;
+    top: -40px;
+}
+
+.search li {
+    display: inline-block;
+    float: right;
+}
+/* .main-nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    z-index: 9999;
+    display: block;
+} */
