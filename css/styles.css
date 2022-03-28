@@ -97,4 +97,13 @@
 
 .community-section {
     border: solid;
+    text-align: center;
+    padding: 40px;
+}
+
+.community-row-1 > p {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
 }
