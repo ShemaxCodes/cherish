@@ -58,6 +58,19 @@
 
 }
 
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link > a:visited {
+    text-decoration: none;
+    color: #6FBDB3;
+}
+.nav-link > a:link {
+    text-decoration: none;
+}
+
+
 /*////////////////////////////////////////
 MAIN HERO / ABOUT SECTION
 ////////////////////////////////////////*/
