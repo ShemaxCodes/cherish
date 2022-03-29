@@ -271,9 +271,9 @@ RESOURCES AND SUPPORT SECTION
     margin: auto;
     width: 50%;
 }
-=======
+/* =======
 CHECKLIST PAGE HERO SECTION
-////////////////////////////////////////*/
+//////////////////////////////////////* */
 .checkListHero {
     width: 100%;
     height: 50%;
@@ -302,4 +302,4 @@ CHECKLIST PAGE HERO SECTION
 .checkList ul {
     list-style-image: url(../images/checkbox-unchecked.svg);
 }
->>>>>>> checklist
+
