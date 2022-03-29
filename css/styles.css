@@ -311,7 +311,7 @@ IDENTIFYING SIGNS OF ABUSE
     margin-bottom: 10px;
     align-items: center;
     display: block;
-    background-image: url(/images/undraw_happy_women_day_fbjt.svg);
+    background-image: url(/images/undraw_dreamer_re_9tua.svg);
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position: right;
@@ -344,11 +344,30 @@ IDENTIFYING SIGNS OF ABUSE
     align-items: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+
+}
+
+.common-signs .support-imgs {
+    height: 70vh;
+    width: 70vh;
+    
+}
+
+.box-row-2 {
+    margin: 15px;
+    padding: 15px;
+    
 }
 
 .box-row-2 > p {
-    font-family: 
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
 }
+
 .box-row-2 > img {
     padding-right: 2px;
 }
