@@ -224,6 +224,7 @@ CONFIDENTIAL HELP SECTION
 }
 
 /*////////////////////////////////////////
+<<<<<<< HEAD
 RESOURCES AND SUPPORT SECTION
 ////////////////////////////////////////*/
 
@@ -270,3 +271,35 @@ RESOURCES AND SUPPORT SECTION
     margin: auto;
     width: 50%;
 }
+=======
+CHECKLIST PAGE HERO SECTION
+////////////////////////////////////////*/
+.checkListHero {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-basis: 80%;
+    justify-content: space-evenly;
+}
+
+.checkListHeroLeft,
+.checkListHeroRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.checkListHeroLeft * {
+    width: 95%;
+    padding: 3%;
+}
+.checkList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkList ul {
+    list-style-image: url(../images/checkbox-unchecked.svg);
+}
+>>>>>>> checklist
