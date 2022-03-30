@@ -58,6 +58,25 @@
 
 }
 
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link > a:visited {
+    text-decoration: none;
+    color: #6FBDB3;
+}
+.nav-link > a:link {
+    text-decoration: none;
+}
+
+.donate-btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
 /*////////////////////////////////////////
 MAIN HERO / ABOUT SECTION
 ////////////////////////////////////////*/
@@ -121,6 +140,7 @@ CHERISH YOUR COMMUNITY SECTION
     margin: auto;
     width: 50%;
     padding: 10px;
+    text-align: justify;
     
 }
 
@@ -133,6 +153,16 @@ CHERISH YOUR COMMUNITY SECTION
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.exit-btn {
+    /* position: fixed; */
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    
+}
 
 /*////////////////////////////////////////
 IDENTIFYING ABUSE SECTION
@@ -318,3 +348,76 @@ CHECKLIST PAGE HERO SECTION
     justify-content: center;
 }
 
+/* =======
+IDENTIFYING SIGNS OF ABUSE
+//////////////////////////////////////* */
+
+.identify-section {
+    margin-bottom: 10px;
+    align-items: center;
+    display: block;
+    background-image: url(/images/undraw_dreamer_re_9tua.svg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #6FBDB3;
+}
+
+.identify-col-1 {
+    /* width: 400px; */
+    /* padding-left: 10px;
+    margin-left: 70px;
+    margin-right: 70px; */
+    /* display: inline-block; */
+    width: 500px;
+    padding: 60px;
+    margin: 30px;
+}
+
+.identify-col-1 > h1 {
+    font-size: 50px;
+    line-height: 1.3;
+}
+
+
+.common-signs {
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+
+}
+
+.common-signs .support-imgs {
+    height: 70vh;
+    width: 70vh;
+    
+}
+
+.box-row-2 {
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.box-row-2 > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.box-row-2 > img {
+    padding-right: 2px;
+}
+.list-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
