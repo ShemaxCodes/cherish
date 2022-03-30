@@ -167,6 +167,10 @@ CHERISH YOUR COMMUNITY SECTION
     
 }
 
+.exit-btn > a:link {
+    text-decoration: none;
+}
+
 /*////////////////////////////////////////
 IDENTIFYING ABUSE SECTION
 ////////////////////////////////////////*/
