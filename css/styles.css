@@ -70,7 +70,13 @@ li {
     text-decoration: none;
 }
 
-
+.donate-btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
 /*////////////////////////////////////////
 MAIN HERO / ABOUT SECTION
 ////////////////////////////////////////*/
@@ -134,6 +140,7 @@ CHERISH YOUR COMMUNITY SECTION
     margin: auto;
     width: 50%;
     padding: 10px;
+    text-align: justify;
     
 }
 
