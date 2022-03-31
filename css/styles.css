@@ -5,33 +5,19 @@
 .hidden {
       display: none;
   }
-
+  
 .logo {
     list-style: none;
-    width: 100%;
 }
-.main-nav ul li {
-    width: 14.28%;
-}
-.main-nav ul {
-    list-style: none;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-.main-nav ul * {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*
+
 .logo img{
-
+    height: 170px;
+    width: 170px;
     float: left;
-    width: 150px;
-
+    list-style: none;
+    position: relative;
     top: -40px;
-} */
+}
 
   .navbar {
     width: 100%;
@@ -46,7 +32,7 @@
     z-index: 9999;
     display: block;
     height: 90px;
-
+  
 }
 
 .navbar-main {
@@ -58,10 +44,9 @@
 }
 
 .nav-link {
-    text-decoration: none;
     padding: 14px 16px;
     display: inline-block;
-
+   
 }
 
 .navbar-header {
@@ -97,23 +82,18 @@ MAIN HERO / ABOUT SECTION
 ////////////////////////////////////////*/
 
 .about-section {
-    /* padding: 20px; */
+    padding: 20px;
     margin-top: 70px;
     margin-bottom: 10px;
-    /*align-items: center;*/
-    /* display: flex;
-    flex-direction: column; */
-    background-image: url(/images/undraw_air_support_re_nybl.svg);
+    align-items: center;
+    display: block;
+    background-image: url(/images/undraw_happy_women_day_fbjt.svg);
     background-size: contain;
-    /*background-image: url(/images/undraw_happy_women_day_fbjt.svg);
-    background-size: contain;
-    /*background: left; */
+    /* background: left; */
     background-repeat: no-repeat;
     background-position: right;
-    display: flex;
-    justify-content: space-around;
 }
-
+    
 
 .about-col-1 {
     /* width: 400px; */
@@ -123,30 +103,21 @@ MAIN HERO / ABOUT SECTION
     display: inline-block;
     width: 500px;
     padding: 60px;
-    /* margin: 30px; */
+    margin: 30px;
 }
 
 .about-col-1 > h1 {
-    width: 70%;
-    font-size: 30px;
-    /*line-height: 0.3;*/
+    font-size: 50px;
+    line-height: 0.3;
 }
 
 h2 {
-   font-size: 40px;
+   font-size: 30px; 
 }
 
 .about-col-2 {
-    width: 30%;
-    /* padding: 0 5%; */
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    /*display: inline-block;
-    padding-left: 50px;*/
-}
-.about-col-2 img {
-    width: 100%;
+    display: inline-block;
+    padding-left: 50px;
 }
 .hero-image {
     height: 290px;
@@ -170,7 +141,7 @@ CHERISH YOUR COMMUNITY SECTION
     width: 50%;
     padding: 10px;
     text-align: justify;
-
+    
 }
 
 .join-cherish-btn {
@@ -182,19 +153,32 @@ CHERISH YOUR COMMUNITY SECTION
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+
 .exit-btn {
     position: fixed;
     left: 0;
     top: 50%;
-    width: 50px;
+    width: 60px;
     height: 40px;
     background-color: red;
     border-radius: 2px;
     border: none;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-
+    
 }
 
+.exit-btn > a:link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+.exit-btn a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
 /*////////////////////////////////////////
 IDENTIFYING ABUSE SECTION
 ////////////////////////////////////////*/
@@ -212,12 +196,11 @@ IDENTIFYING ABUSE SECTION
 }
 
 .btn-row-2 {
-    display: flex;
+    display: flex;   
     justify-content: center;
 }
 
-.btn-row-2 .btn-1, .btn-row-2 .btn-2,
-.search-btn, .search {
+.btn-row-2 .btn-1, .btn-row-2 .btn-2 {
     margin: 40px;
     width: 300px;
     height: 50px;
@@ -230,7 +213,7 @@ IDENTIFYING ABUSE SECTION
 }
 
 .btn-row-3 {
-    display: flex;
+    display: flex;   
     justify-content: center;
 }
 
@@ -244,7 +227,7 @@ IDENTIFYING ABUSE SECTION
 }
 
 /*////////////////////////////////////////
-CONFIDENTIAL HELP SECTION
+CONFIDENTIAL HELP SECTION 
 ////////////////////////////////////////*/
 
 .help-section {
@@ -334,12 +317,13 @@ RESOURCES AND SUPPORT SECTION
     width: 50%;
 }
 /* =======
-CHECKLIST & SAFETY PAGE
+CHECKLIST PAGE HERO SECTION
 //////////////////////////////////////* */
 .checkListHero {
     width: 100%;
     height: 50%;
     display: flex;
+    flex-basis: 80%;
     justify-content: space-evenly;
 }
 
@@ -355,17 +339,10 @@ CHECKLIST & SAFETY PAGE
     width: 95%;
     padding: 3%;
 }
-.checkListHero img {
-    width: 80%;
-    padding: 0 5%;
-}
-.checkListHeroRight * {
-    padding: 0 10%;
-}
 .checkList {
     display: flex;
     justify-content: center;
-
+    
 }
 .checkList ul {
     list-style-image: url(../images/checkbox-unchecked.svg);
@@ -385,12 +362,7 @@ CHECKLIST & SAFETY PAGE
     display: flex;
     justify-content: center;
 }
-.search::placeholder {
-    text-align: center;
-}
-.checkListTitle {
-    text-align: center;
-}
+
 /* =======
 IDENTIFYING SIGNS OF ABUSE
 //////////////////////////////////////* */
@@ -435,20 +407,20 @@ IDENTIFYING SIGNS OF ABUSE
     border: none;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
+   
 
 }
 
 .common-signs .support-imgs {
     height: 70vh;
     width: 70vh;
-
+    
 }
 
 .box-row-2 {
     margin: 15px;
     padding: 15px;
-
+    
 }
 
 .box-row-2 > p {
