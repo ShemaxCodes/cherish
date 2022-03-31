@@ -8,9 +8,6 @@
   
 .logo {
     list-style: none;
-}
-
-.logo img{
     height: 170px;
     width: 170px;
     float: left;
@@ -18,6 +15,15 @@
     position: relative;
     top: -40px;
 }
+
+/* .logo img{
+    height: 170px;
+    width: 170px;
+    float: left;
+    list-style: none;
+    position: relative;
+    top: -40px;
+} */
 
   .navbar {
     width: 100%;
