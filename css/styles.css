@@ -154,7 +154,9 @@ CHERISH YOUR COMMUNITY SECTION
 }
 
 .exit-btn {
-    /* position: fixed; */
+    position: fixed;
+    left: 0;
+    top: 50%;
     width: 50px;
     height: 40px;
     background-color: red;
@@ -185,7 +187,8 @@ IDENTIFYING ABUSE SECTION
     justify-content: center;
 }
 
-.btn-row-2 .btn-1, .btn-row-2 .btn-2 {
+.btn-row-2 .btn-1, .btn-row-2 .btn-2,
+.search-btn, .search {
     margin: 40px;
     width: 300px;
     height: 50px;
@@ -302,7 +305,7 @@ RESOURCES AND SUPPORT SECTION
     width: 50%;
 }
 /* =======
-CHECKLIST PAGE HERO SECTION
+CHECKLIST & SAFETY PAGE
 //////////////////////////////////////* */
 .checkListHero {
     width: 100%;
@@ -347,7 +350,12 @@ CHECKLIST PAGE HERO SECTION
     display: flex;
     justify-content: center;
 }
-
+.search::placeholder {
+    text-align: center;
+}
+.checkListTitle {
+    text-align: center;
+}
 /* =======
 IDENTIFYING SIGNS OF ABUSE
 //////////////////////////////////////* */

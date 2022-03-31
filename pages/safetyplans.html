@@ -54,6 +54,10 @@
         </section>
 
     </section>
+    <button class="exit-btn">Exit</button>
+    <section>
+        <h3 class="checkListTitle">If you can get them safely</h3>
+    </section>
     <section class="checkList">
         <ul class="checkListThings">
             <li>Passports</li>
@@ -83,25 +87,26 @@
             receive or seek help.</a></h3>
         <p>There is no way to completely prevent online eavesdropping. However, we have a search tool to make it a
             little bit more safe.</p>
-        <p>You can use our anonymized search below to retrieve some resources. You will still want to clear your history
-            of accessing the Cherish.com website, but this will help reduce your online footprint.</p>
-        <div class="duck">
+        <p>You can use our anonymized search portal below to find resources. It will direct you to an outside search engine. You will still want to clear your history
+            of accessing the Cherish.com website and your search history, but containing your search may help reduce your online footprint.</p>
+            <p>There is no such thing as a truly safe and private online activity. An abuser or stalker has many tools to see where you have been online.</p>
+        <!-- <div class="duck">
             
             <iframe src="https://duckduckgo.com/search.html" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
             <div class="searchResults">
 
-            </div>
+            </div> -->
             <form method="get" id="search" onSubmit='retrieveSearchResults()' action="https://duckduckgo.com/">
-                <input class="search" type="text" name="q" maxlength="300" placeholder="Search"/>
-                <input type="submit" value="Search" /></form>
-                <script>
+                <input class="search" type="text" name="q" maxlength="300" placeholder="Enter your search terms"/>
+                <input class="search-btn" type="submit" value="Search" /></form>
+                <!-- <script>
                     function retrieveSearchResults() {
                         let userSearchInput = document.getElementById('search').value;
                         let parent = document.querySelector('.duck');
                         document.querySelector('.searchResults').innerHTML = `<iframe src = 'https://duckduckgo.com/search.html?&prefill=Search DuckDuckGo${search}'`
                     }
                 </script>
-                <section class="searchResults"></section>
+                <section class="searchResults"></section> -->
         </div>
     </section>
 </body>
