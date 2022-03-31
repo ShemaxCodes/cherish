@@ -97,7 +97,7 @@ MAIN HERO / ABOUT SECTION
 ////////////////////////////////////////*/
 
 .about-section {
-    padding: 20px;
+    /* padding: 20px; */
     margin-top: 70px;
     margin-bottom: 10px;
     /*align-items: center;*/
@@ -123,7 +123,7 @@ MAIN HERO / ABOUT SECTION
     display: inline-block;
     width: 500px;
     padding: 60px;
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 .about-col-1 > h1 {
@@ -138,9 +138,15 @@ h2 {
 
 .about-col-2 {
     width: 30%;
-    padding: 0 5%;
+    /* padding: 0 5%; */
+    display: flex;
+    align-items: left;
+    justify-content: center;
     /*display: inline-block;
     padding-left: 50px;*/
+}
+.about-col-2 img {
+    width: 100%;
 }
 .hero-image {
     height: 290px;
