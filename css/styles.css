@@ -5,19 +5,33 @@
 .hidden {
       display: none;
   }
-  
+
 .logo {
     list-style: none;
+    width: 100%;
 }
-
-.logo img{
-    height: 170px;
-    width: 170px;
-    float: left;
+.main-nav ul li {
+    width: 14.28%;
+}
+.main-nav ul {
     list-style: none;
-    position: relative;
-    top: -40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
+.main-nav ul * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.logo img{
+
+    float: left;
+    width: 150px;
+
+    top: -40px;
+} */
 
   .navbar {
     width: 100%;
@@ -32,7 +46,7 @@
     z-index: 9999;
     display: block;
     height: 90px;
-  
+
 }
 
 .navbar-main {
@@ -44,9 +58,10 @@
 }
 
 .nav-link {
+    text-decoration: none;
     padding: 14px 16px;
     display: inline-block;
-   
+
 }
 
 .navbar-header {
@@ -85,15 +100,20 @@ MAIN HERO / ABOUT SECTION
     padding: 20px;
     margin-top: 70px;
     margin-bottom: 10px;
-    align-items: center;
-    display: block;
-    background-image: url(/images/undraw_happy_women_day_fbjt.svg);
+    /*align-items: center;*/
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url(/images/undraw_air_support_re_nybl.svg);
     background-size: contain;
-    /* background: left; */
+    /*background-image: url(/images/undraw_happy_women_day_fbjt.svg);
+    background-size: contain;
+    /*background: left; */
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    justify-content: space-around;
 }
-    
+
 
 .about-col-1 {
     /* width: 400px; */
@@ -107,17 +127,20 @@ MAIN HERO / ABOUT SECTION
 }
 
 .about-col-1 > h1 {
-    font-size: 50px;
-    line-height: 0.3;
+    width: 70%;
+    font-size: 30px;
+    /*line-height: 0.3;*/
 }
 
 h2 {
-   font-size: 30px; 
+   font-size: 40px;
 }
 
 .about-col-2 {
-    display: inline-block;
-    padding-left: 50px;
+    width: 30%;
+    padding: 0 5%;
+    /*display: inline-block;
+    padding-left: 50px;*/
 }
 .hero-image {
     height: 290px;
@@ -141,7 +164,7 @@ CHERISH YOUR COMMUNITY SECTION
     width: 50%;
     padding: 10px;
     text-align: justify;
-    
+
 }
 
 .join-cherish-btn {
@@ -163,7 +186,7 @@ CHERISH YOUR COMMUNITY SECTION
     border-radius: 2px;
     border: none;
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    
+
 }
 
 /*////////////////////////////////////////
@@ -183,7 +206,7 @@ IDENTIFYING ABUSE SECTION
 }
 
 .btn-row-2 {
-    display: flex;   
+    display: flex;
     justify-content: center;
 }
 
@@ -201,7 +224,7 @@ IDENTIFYING ABUSE SECTION
 }
 
 .btn-row-3 {
-    display: flex;   
+    display: flex;
     justify-content: center;
 }
 
@@ -215,7 +238,7 @@ IDENTIFYING ABUSE SECTION
 }
 
 /*////////////////////////////////////////
-CONFIDENTIAL HELP SECTION 
+CONFIDENTIAL HELP SECTION
 ////////////////////////////////////////*/
 
 .help-section {
@@ -311,7 +334,6 @@ CHECKLIST & SAFETY PAGE
     width: 100%;
     height: 50%;
     display: flex;
-    flex-basis: 80%;
     justify-content: space-evenly;
 }
 
@@ -327,10 +349,17 @@ CHECKLIST & SAFETY PAGE
     width: 95%;
     padding: 3%;
 }
+.checkListHero img {
+    width: 80%;
+    padding: 0 5%;
+}
+.checkListHeroRight * {
+    padding: 0 10%;
+}
 .checkList {
     display: flex;
     justify-content: center;
-    
+
 }
 .checkList ul {
     list-style-image: url(../images/checkbox-unchecked.svg);
@@ -400,20 +429,20 @@ IDENTIFYING SIGNS OF ABUSE
     border: none;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-   
+
 
 }
 
 .common-signs .support-imgs {
     height: 70vh;
     width: 70vh;
-    
+
 }
 
 .box-row-2 {
     margin: 15px;
     padding: 15px;
-    
+
 }
 
 .box-row-2 > p {
